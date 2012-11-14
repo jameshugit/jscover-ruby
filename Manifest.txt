@@ -1,0 +1,8 @@
+.autotest
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/jscover
+lib/jscover.rb
+test/test_jscover.rb
