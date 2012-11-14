@@ -9,7 +9,10 @@ Hoe.spec 'jscover' do
   self.readme_file = 'README.rdoc'
   self.history_file = 'CHANGELOG.rdoc'
   self.extra_rdoc_files = FileList['*.rdoc']
-  self.extra_dev_deps << ['rake-compiler', '>= 0']
+
+  self.dependency('mini_portile', '>= 0.4.1', :runtime)
+  self.dependency('rake-compiler', '>= 0', :dev)
+
   self.spec_extras = { :extensions => ["ext/#{self.name}/extconf.rb"] }
 end
 
