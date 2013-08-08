@@ -8,4 +8,4 @@ lib/jscover.rb
 test/test_jscover.rb
 ext/jscover/extconf.rb
 ext/jscover/jscover.c
-ext/jscover/ports/archives/v1.0.0
+ext/jscover/ports/archives/v1.1.1

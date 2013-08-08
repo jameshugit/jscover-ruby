@@ -1,6 +1,8 @@
 #include <ruby.h>
 #include <pthread.h>
 
+int jscoverage_highlight;
+const char * jscoverage_encoding = "ISO-8859-1";
 void jscoverage_init();
 const char * jscoverage_instrument_string(const char * script, const char * id);
 
